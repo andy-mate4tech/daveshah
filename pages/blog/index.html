@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Dave Shah Solutions</title>
+    <meta name="description" content="Stay updated with the latest insights, trends, and best practices in Microsoft Dynamics Business Central and NAV from the experts at Dave Shah Solutions.">
+    <meta name="keywords" content="Business Central blog, NAV insights, ERP best practices, Microsoft Dynamics updates, Dave Shah Solutions">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="../../images/favicon.ico">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="../../index.html" class="logo">
+                <img src="../../images/logo.png" alt="Dave Shah Solutions Logo">
+                <span class="logo-text">Dave Shah Solutions</span>
+            </a>
+            
+            <button class="mobile-nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="../../index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../about/about-us.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">Business Central</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../business-central/implementation.html" class="dropdown-item">Implementation</a></li>
+                            <li><a href="../business-central/consulting-support.html" class="dropdown-item">Consulting & Support</a></li>
+                            <li><a href="../business-central/recovery.html" class="dropdown-item">Recovery</a></li>
+                            <li><a href="../business-central/solution-design.html" class="dropdown-item">Solution Design & Development</a></li>
+                            <li><a href="../business-central/licensing.html" class="dropdown-item">Licensing</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">NAV Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../nav/consulting-support.html" class="dropdown-item">Consulting, Support & Development</a></li>
+                            <li><a href="../nav/upgrade-to-bc.html" class="dropdown-item">Upgrade to Business Central</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">Partners</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../partners/jet-reports.html" class="dropdown-item">Jet Reports</a></li>
+                            <li><a href="../partners/tasklet-factory.html" class="dropdown-item">Tasklet Factory</a></li>
+                            <li><a href="../partners/continia.html" class="dropdown-item">Continia</a></li>
+                            <li><a href="../partners/dime-scheduler.html" class="dropdown-item">Dime Scheduler</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../case-studies/index.html" class="nav-link">Case Studies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../contact/contact-us.html" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+                
+                <a href="../contact/contact-us.html" class="btn btn-primary nav-cta">Get in Touch</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner" style="background: linear-gradient(rgba(0, 0, 160, 0.8), rgba(0, 0, 90, 0.8)), url('../../images/stock/technology/tech_city_blue.jpeg') center/cover no-repeat;">
+        <div class="container">
+            <h1>Blog & Insights</h1>
+            <div class="breadcrumbs">
+                <a href="../../index.html">Home</a> / 
+                <span>Blog</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Introduction -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Latest Insights</h2>
+            <p class="section-subtitle">Expert perspectives on Business Central, NAV, and ERP best practices</p>
+            
+            <div class="blog-intro">
+                <p>Welcome to the Dave Shah Solutions blog, where our team of experts shares valuable insights, tips, and best practices for Microsoft Dynamics Business Central and NAV. Our articles cover a wide range of topics, from implementation strategies and technical tips to industry trends and business process optimization.</p>
+                <p>Whether you're a current Business Central or NAV user looking to maximize your system's potential, or you're considering an ERP implementation or upgrade, our blog provides the information you need to make informed decisions and drive business success.</p>
+                <p>Subscribe to our newsletter to receive the latest articles directly in your inbox.</p>
+                
+                <div class="newsletter-signup">
+                    <h3>Subscribe to Our Newsletter</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email Address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="blog-filter">
+                <h3>Filter by Category</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Categories</button>
+                    <button class="filter-btn" data-filter="business-central">Business Central</button>
+                    <button class="filter-btn" data-filter="nav">NAV</button>
+                    <button class="filter-btn" data-filter="implementation">Implementation</button>
+                    <button class="filter-btn" data-filter="best-practices">Best Practices</button>
+                    <button class="filter-btn" data-filter="industry-trends">Industry Trends</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Article -->
+    <section class="section section-bg-light">
+        <div class="container">
+            <h2 class="section-title">Featured Article</h2>
+            
+            <div class="featured-article">
+                <div class="featured-article-image">
+                    <img src="../../images/stock/technology/featured-article.jpg" alt="Business Central 2025 Updates">
+                </div>
+                <div class="featured-article-content">
+                    <div class="article-meta">
+                        <span class="article-category">Business Central</span>
+                        <span class="article-date">April 5, 2025</span>
+                    </div>
+                    <h3>What's New in Business Central 2025: Key Features and Enhancements</h3>
+                    <p>Microsoft's latest release of Business Central brings significant improvements in user experience, AI capabilities, and integration options. In this comprehensive guide, we explore the most impactful new features and how they can benefit your business operations.</p>
+                    <p>The 2025 release introduces enhanced AI-powered insights that help users make better decisions, streamlined workflows that improve productivity, and expanded integration capabilities that connect Business Central with more third-party applications than ever before.</p>
+                    <p>We also discuss the implications for existing users, upgrade considerations, and how to prepare your organization to leverage these new capabilities effectively.</p>
+                    <a href="#" class="btn btn-secondary">Read Full Article</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Articles Grid -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Latest Articles</h2>
+            
+            <div class="blog-grid">
+                <!-- Article 1 -->
+                <div class="blog-card" data-category="business-central implementation">
+                    <div class="blog-image">
+                        <img src="../../images/stock/business/blog-1.jpg" alt="Business Central Implementation Best Practices">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Business Central</span>
+                            <span class="blog-date">March 28, 2025</span>
+                        </div>
+                        <h3>10 Best Practices for Successful Business Central Implementation</h3>
+                        <p>Implementing Business Central is a significant undertaking that requires careful planning and execution. In this article, we share ten proven best practices that can help ensure your implementation project delivers the expected business value while minimizing risks and disruptions.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Article 2 -->
+                <div class="blog-card" data-category="nav">
+                    <div class="blog-image">
+                        <img src="../../images/stock/business/blog-2.jpg" alt="NAV to Business Central Migration">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">NAV</span>
+                            <span class="blog-date">March 20, 2025</span>
+                        </div>
+                        <h3>NAV to Business Central Migration: Key Considerations and Planning Tips</h3>
+                        <p>Migrating from NAV to Business Central offers significant benefits, but it also presents challenges that require careful planning. This article outlines the key considerations for a successful migration, including data migration strategies, customization approaches, and user training requirements.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Article 3 -->
+                <div class="blog-card" data-category="best-practices">
+                    <div class="blog-image">
+                        <img src="../../images/stock/business/blog-3.jpg" alt="Financial Management in Business Central">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Best Practices</span>
+                            <span class="blog-date">March 15, 2025</span>
+                        </div>
+                        <h3>Optimizing Financial Management in Business Central: Tips and Techniques</h3>
+                        <p>Business Central offers powerful financial management capabilities, but many organizations aren't fully leveraging these features. This article provides practical tips for optimizing your financial processes, improving reporting, and gaining better insights from your financial data.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Article 4 -->
+                <div class="blog-card" data-category="industry-trends">
+                    <div class="blog-image">
+                        <img src="../../images/stock/business/blog-4.jpg" alt="AI in ERP">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Industry Trends</span>
+                            <span class="blog-date">March 8, 2025</span>
+                        </div>
+                        <h3>The Future of ERP: How AI is Transforming Business Central and Beyond</h3>
+                        <p>Artificial intelligence is revolutionizing ERP systems, and Business Central is at the forefront of this transformation. This article explores how AI capabilities in Business Central are changing the way businesses operate, from predictive analytics to automated processes and intelligent insights.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Article 5 -->
+                <div class="blog-card" data-category="business-central">
+                    <div class="blog-image">
+                        <img src="../../images/stock/business/blog-5.jpg" alt="Business Central Extensions">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Business Central</span>
+                            <span class="blog-date">February 28, 2025</span>
+                        </div>
+                        <h3>Top 10 Business Central Extensions That Boost Productivity</h3>
+                        <p>Business Central's extensibility is one of its key strengths, allowing you to enhance functionality with extensions from AppSource. This article highlights ten powerful extensions that can significantly improve productivity across various business functions, from sales and purchasing to inventory and project management.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Article 6 -->
+                <div class="blog-card" data-category="implementation">
+                    <div class="blog-image">
+                        <img src="../../images/stock/business/blog-6.jpg" alt="User Adoption Strategies">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Implementation</span>
+                            <span class="blog-date">February 20, 2025</span>
+                        </div>
+                        <h3>Driving User Adoption: Strategies for Business Central Implementation Success</h3>
+                        <p>User adoption is critical to the success of any Business Central implementation. This article provides proven strategies for encouraging user adoption, from effective training approaches to change management techniques and ongoing support mechanisms that help users embrace the new system.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Article 7 -->
+                <div class="blog-card" data-category="best-practices">
+                    <div class="blog-image">
+                        <img src="../../images/stock/business/blog-7.jpg" alt="Data Migration Best Practices">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Best Practices</span>
+                            <span class="blog-date">February 15, 2025</span>
+                        </div>
+                        <h3>Data Migration Best Practices for Business Central: Ensuring Data Integrity and Completeness</h3>
+                        <p>Data migration is one of the most challenging aspects of any Business Central implementation. This article outlines best practices for planning and executing a successful data migration, including data cleansing strategies, mapping approaches, validation techniques, and cutover planning.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Article 8 -->
+                <div class="blog-card" data-category="nav">
+                    <div class="blog-image">
+                        <img src="../../images/stock/business/blog-8.jpg" alt="NAV Support Options">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">NAV</span>
+                            <span class="blog-date">February 8, 2025</span>
+                        </div>
+                        <h3>NAV Support Options: Maintaining Your System While Planning for the Future</h3>
+                        <p>Many organizations continue to run NAV while planning their transition to Business Central. This article discusses support options for NAV systems, including strategies for maintaining system performance, addressing issues, and planning for the eventual migration to Business Central.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Article 9 -->
+                <div class="blog-card" data-category="industry-trends">
+                    <div class="blog-image">
+                        <img src="../../images/stock/business/blog-9.jpg" alt="Cloud ERP Trends">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Industry Trends</span>
+                            <span class="blog-date">January 28, 2025</span>
+                        </div>
+                        <h3>Cloud ERP Trends: How Business Central is Leading the Way</h3>
+                        <p>The shift to cloud ERP continues to accelerate, and Business Central is at the forefront of this trend. This article explores the latest developments in cloud ERP, the benefits of cloud deployment for Business Central, and how organizations are leveraging cloud capabilities to drive innovation and agility.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pagination">
+                <a href="#" class="pagination-item active">1</a>
+                <a href="#" class="pagination-item">2</a>
+                <a href="#" class="pagination-item">3</a>
+                <a href="#" class="pagination-item next">Next <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Topics -->
+    <section class="section section-bg-light">
+        <div class="container">
+            <h2 class="section-title">Popular Topics</h2>
+            
+            <div class="topics-grid">
+                <a href="#" class="topic-card">
+                    <div class="topic-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Implementation</h3>
+                    <p>Best practices and strategies for successful Business Central implementation</p>
+                </a>
+                
+                <a href="#" class="topic-card">
+                    <div class="topic-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Upgrades</h3>
+                    <p>Guidance for upgrading from NAV to Business Central or between BC versions</p>
+                </a>
+                
+                <a href="#" class="topic-card">
+                    <div class="topic-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Customization</h3>
+                    <p>Approaches for extending and customizing Business Central functionality</p>
+                </a>
+                
+                <a href="#" class="topic-card">
+                    <div class="topic-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Reporting</h3>
+                    <p>Techniques for creating effective reports and dashboards in Business Central</p>
+                </a>
+                
+                <a href="#" class="topic-card">
+                    <div class="topic-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>Integration</h3>
+                    <p>Methods for integrating Business Central with other systems and applications</p>
+                </a>
+                
+                <a href="#" class="topic-card">
+                    <div class="topic-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI & Automation</h3>
+                    <p>Leveraging AI and automation capabilities in Business Central</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-title">Have a Question About Business Central or NAV?</h2>
+            <p class="cta-description">Our team of experts is ready to help you navigate your ERP challenges and opportunities.</p>
+            <div class="cta-buttons">
+                <a href="../contact/contact-us.html" class="btn btn-accent btn-lg">Contact Our Experts</a>
+                <a href="#" class="btn btn-secondary btn-lg">Subscribe to Updates</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="../../images/logo.png" alt="Dave Shah Solutions Logo">
+                    </div>
+                    <p class="footer-about">Dave Shah Solutions specializes in Microsoft Business Central and NAV services, helping businesses optimize their operations and drive growth.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="../business-central/implementation.html">BC Implementation</a></li>
+                        <li class="footer-link"><a href="../business-central/consulting-support.html">BC Consulting & Support</a></li>
+                        <li class="footer-link"><a href="../business-central/recovery.html">BC Recovery</a></li>
+                        <li class="footer-link"><a href="../business-central/solution-design.html">Solution Design & Development</a></li>
+                        <li class="footer-link"><a href="../business-central/licensing.html">BC Licensing</a></li>
+                        <li class="footer-link"><a href="../nav/consulting-support.html">NAV Services</a></li>
+                        <li class="footer-link"><a href="../nav/upgrade-to-bc.html">NAV to BC Upgrade</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="../../index.html">Home</a></li>
+                        <li class="footer-link"><a href="../about/about-us.html">About Us</a></li>
+                        <li class="footer-link"><a href="../case-studies/index.html">Case Studies</a></li>
+                        <li class="footer-link"><a href="index.html">Blog</a></li>
+                        <li class="footer-link"><a href="../contact/contact-us.html">Contact Us</a></li>
+                        <li class="footer-link"><a href="../privacy-policy.html">Privacy Policy</a></li>
+                        <li class="footer-link"><a href="../terms-of-service.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4 class="footer-title">Contact Us</h4>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt footer-contact-icon"></i>
+                        <span>Australia</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone footer-contact-icon"></i>
+                        <span>+61 XXX XXX XXX</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope footer-contact-icon"></i>
+                        <span>info@daveshah.com.au</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dave Shah Solutions. All Rights Reserved. | <a href="../privacy-policy.html">Privacy Policy</a> | <a href="../terms-of-service.html">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="../../js/main.js"></script>
+    <script>
+        // Blog Filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const blogCards = document.querySelectorAll('.blog-card');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    // Get filter value
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    // Filter blog cards
+                    blogCards.forEach(card => {
+                        const categories = card.getAttribute('data-category').split(' ');
+                        if (filterValue === 'all' || categories.includes(filterValue)) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+            
+            // Newsletter form submission
+            const newsletterForm = document.querySelector('.newsletter-form');
+            
+            newsletterForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const emailInput = this.querySelector('input[type="email"]');
+                const submitButton = this.querySelector('button[type="submit"]');
+                const originalText = submitButton.textContent;
+                
+                submitButton.disabled = true;
+                submitButton.textContent = 'Subscribing...';
+                
+                // Simulate API call delay
+                setTimeout(() => {
+                    // Show success message
+                    this.innerHTML = `
+                        <div class="success-message">
+                            <i class="fas fa-check-circle success-icon"></i>
+                            <p>Thank you for subscribing! You'll receive our latest articles directly in your inbox.</p>
+                        </div>
+                    `;
+                }, 1500);
+            });
+        });
+    </script>
+</body>
+</html>
